@@ -35,11 +35,12 @@ gobuster [command]
 **Use "gobuster [command] --help" for more information about a command.**
 ## Example of Directory Enumeration with Gobuster
 In the Lab we have an instance of Mutillidae is running at port 80 of the target. <br>
-gobuster dir -u http://192.59.195.3 -w /usr/share/wordlists/dirb/common.txt -b 403,404 (enumeration, ignoring status 403 and 404) <br>
-<img src="g1.png" width=80% height="auto"><br>
-gobuster dir -u http://192.59.195.3/data -w /usr/share/wordlists/dirb/common.txt -b 403,404 -x .php,.xml,.txt -r (Find the files with the extensions such as .php, .xml, .txt in the directory /data enumerated with the previous command) <br>
-<img src="g2.png" width=80% height="auto"><br>
-We found and account.xml, usefull for information gathering of the accounts.
+ - gobuster dir -u http://192.59.195.3 -w /usr/share/wordlists/dirb/common.txt -b 403,404 (enumeration, ignoring status 403 and 404) <br>
+<img src="g1.png" width=80% height="auto"><br><br>
+ - gobuster dir -u http://192.59.195.3/data -w /usr/share/wordlists/dirb/common.txt -b 403,404 -x .php,.xml,.txt -r (Find the files with the extensions such as .php, .xml, .txt in the directory /data enumerated with the previous command) <br>
+<img src="g2.png" width=80% height="auto"><br><br>
+
+**We found and account.xml, usefull for information gathering of the accounts.**
 
 #Author
 <b>Xiao Li Savio Feng</b>
