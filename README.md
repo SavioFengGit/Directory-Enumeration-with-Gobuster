@@ -1,5 +1,5 @@
 # Directory-Enumeration-with-Gobuster
-Let's see how to Directory Enumeration with Gobuster
+Let's see how to do Directory Enumeration with Gobuster
 # Introduction of the tool
 ## Gobuster
 Gobuster is a tool used to brute-force various targets such as URIs, DNS subdomains, virtual hosts, and cloud buckets. It is written in Go and can operate in different modes depending on the type of enumeration you want to perform.<br>
